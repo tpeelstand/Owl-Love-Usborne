@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body {
+  font-family: 'Open Sans', sans-serif;
+  position: relative;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.height-fifteen {
+  height: 15px;
+}
+.btn-success {
+  background-color: #B2BB1C !important;
+  border-color: #B2BB1C !important;
+}
+.btn-success:hover {
+  background-color: #888f15 !important;
+}
+.btn-pink {
+  background-color: #ED174F;
+  border-color: #ED174F;
+  color: #FFF;
+}
+.btn-pink:hover {
+  color: #FFF;
+  background-color: #c20f3e;
+}
+nav {
+  background-color: #663366 !important;
+  border-bottom: 4px solid #B2BB1C !important;
+  border-left: 0 solid #663366 !important;
+  border-right: 0 solid #663366 !important;
+  border-top: 0 solid #663366 !important;
+}
+.navbar {
+  border-radius: 0 !important;
+}
+.usborne-logo {
+  width: 35%;
+  margin: 0;
+  padding: 5px 0;
+}
+.usborne-container .h1-title {
+  font-size: 2em;
+}
+.printouts .printout-list {
+  list-style-type: none;
+  margin-top: 20px;
+  padding: 0;
+}
+.printouts .printout-list li {
+  width: 40%;
+  margin: 10px 20px;
+  border: 1px solid #CCC;
+  padding: 5px;
+  float: left;
+}
+@media (max-width: 767px) {
+  .printouts .printout-list li {
+    width: 100%;
+    padding: 5px;
+    float: none;
+    padding: 0;
+    border: 0;
+    margin: 10px auto;
+  }
+}
+footer {
+  width: 100%;
+  height: 35px;
+  margin-top: 50px;
+  background-color: #663366;
+  border-top: 2px solid #B2BB1C;
+}
